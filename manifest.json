@@ -1,0 +1,27 @@
+{
+  "name": "sha9ie — All-in-One Workspace",
+  "short_name": "sha9ie",
+  "description": "Five studios in one workspace: Cut (video and audio), Acrobat (PDF and documents), Pixel (photo lab), OS (planning and study) and Dev & Calc. Everything is processed on your device.",
+  "id": "/sha9ie/",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "categories": ["productivity", "utilities", "photo", "video"],
+  "lang": "en",
+  "dir": "ltr",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "PDF Studio", "url": "./index.html#app=pdf", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Video Studio", "url": "./index.html#app=video", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Photo Lab", "url": "./index.html#app=photo", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Planner OS", "url": "./index.html#app=planner", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "Dev & Calc", "url": "./index.html#app=dev", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
